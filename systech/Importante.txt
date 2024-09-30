@@ -8,10 +8,10 @@ Evitar archivos innecesarios en Git: Si primero inicializas un repositorio de Gi
 
 El procedimiento recomendado sería el siguiente:
 
-Crea un nuevo directorio para tu proyecto.
-Dentro de ese directorio, configura un nuevo entorno virtual de Python utilizando herramientas como virtualenv o venv.
-Activa el entorno virtual para que todas las instalaciones de paquetes se realicen dentro de él.
-Inicializa el repositorio de Git en el directorio del proyecto.
-Agrega un archivo .gitignore para excluir los archivos generados por el entorno virtual y otros archivos innecesarios del seguimiento de versiones.
-Comienza a trabajar en tu proyecto.
-Siguiendo este enfoque, te aseguras de que tu proyecto tenga un entorno aislado y fácilmente replicable para colaboradores y que no se incluyan archivos innecesarios en el repositorio de Git.
+- Crea un nuevo directorio para tu proyecto.
+- Dentro de ese directorio, configura un nuevo entorno virtual de Python utilizando herramientas como virtualenv o venv.
+- Activa el entorno virtual para que todas las instalaciones de paquetes se realicen dentro de él.
+- Inicializa el repositorio de Git en el directorio del proyecto.
+- Agrega un archivo .gitignore para excluir los archivos generados por el entorno virtual y otros archivos innecesarios del seguimiento de versiones.
+- Comienza a trabajar en tu proyecto.
+- Siguiendo este enfoque, te aseguras de que tu proyecto tenga un entorno aislado y fácilmente replicable para colaboradores y que no se incluyan archivos innecesarios en el repositorio de Git.
